@@ -6,6 +6,7 @@ BASE_DIR="/home/$DEV_USER/desenvolvimento/bash"
 
 SCRIPTS=(
   "$BASE_DIR/alias/java.sh"
+  "$BASE_DIR/alias/maven.sh"
 )
 
 load_aliases() {
@@ -28,3 +29,7 @@ reload_aliases() {
 }
 
 load_aliases
+
+fullreload() {
+  source ~/.bashrc
+}
