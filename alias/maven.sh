@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MAVEN_BASE="/home/$DEV_USER/opt/maven"
+MAVEN_BASE="/home/$USER/opt/maven"
 
 maven_set() {
   local TARGET="$1"

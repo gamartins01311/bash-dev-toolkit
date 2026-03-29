@@ -1,6 +1,6 @@
 #!/bin/bash
 
-JAVA_BASE="/home/$DEV_USER/opt/java"
+JAVA_BASE="/home/$USER/opt/java"
 
 java_set() {
   local TARGET="$1"

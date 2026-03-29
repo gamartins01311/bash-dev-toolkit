@@ -1,8 +1,7 @@
 #!/bin/bash
 
-export DEV_USER="$USER"
 
-BASE_DIR="/home/$DEV_USER/desenvolvimento/bash"
+BASE_DIR="/home/$USER/desenvolvimento/bash"
 
 SCRIPTS=(
   "$BASE_DIR/alias/java.sh"
